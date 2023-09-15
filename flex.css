@@ -1,0 +1,47 @@
+.section {
+    height: 25vh; /* Each section occupies 25% of the viewport height */
+    text-align: center;
+    font-size: 24px;
+    color: white; /* Text color */
+    display: flex 1;
+    align-items:center;
+    justify-content: center;
+}
+
+/* Define gradient backgrounds for the four sections */
+.section:nth-child(1) {
+    background: linear-gradient(to bottom, #1e90ff, #007bff); /* Blue gradient */
+
+}
+.section:nth-child(2) {
+    background: linear-gradient(to bottom, #007bff, #0059b3); /* Blue gradient */
+}
+.section:nth-child(3) {
+    background: linear-gradient(to bottom, #0059b3, #003d99); /* Blue gradient */
+}
+.section:nth-child(4) {
+    background: linear-gradient(to bottom, #003d99, #001f4d); /* Blue gradient */
+}
+
+button {
+    height: 60px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+#Rock{
+    background-color:darkgray;
+}
+
+#Cesar
+{
+    background-color:rgb(50, 128, 128);
+}
+
+#Paper{
+    background-color: azure;
+}
+
+p {
+    margin-left: 40px;
+}
